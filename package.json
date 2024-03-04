@@ -1,0 +1,37 @@
+{
+  "name": "@localrepo/app",
+  "private": true,
+  "scripts": {
+    "postgraphile": "postgraphile"
+  },
+  "dependencies": {
+    "@dataplan/json": "0.0.1-beta.15",
+    "@dataplan/pg": "0.0.1-beta.17",
+    "@grafserv/persisted": "0.0.0-beta.18",
+    "@graphile-contrib/pg-many-to-many": "2.0.0-beta.2",
+    "@graphile-contrib/pg-omit-archived": "4.0.0-beta.2",
+    "@graphile/pg-aggregates": "0.2.0-beta.5",
+    "@graphile/simplify-inflection": "8.0.0-beta.4",
+    "express": "^4.18.3",
+    "grafast": "0.1.1-beta.6",
+    "grafserv": "0.1.1-beta.8",
+    "graphile": "5.0.0-beta.21",
+    "graphile-build": "^5.0.0-beta.1",
+    "graphile-build-pg": "5.0.0-beta.20",
+    "graphql": "^16.8.1",
+    "json^0.0.1-beta.8": "link:@dataplan/json^0.0.1-beta.8",
+    "postgraphile": "5.0.0-beta.21",
+    "postgraphile-plugin-connection-filter": "3.0.0-beta.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.4",
+    "@types/express": "^4.17.21",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "proseWrap": "always"
+  }
+}
