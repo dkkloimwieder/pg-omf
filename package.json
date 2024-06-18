@@ -22,7 +22,7 @@
     "json^0.0.1-beta.8": "link:@dataplan/json^0.0.1-beta.8",
     "postgraphile": "5.0.0-beta.21",
     "postgraphile-plugin-connection-filter": "3.0.0-beta.2",
-    "ws": "^8.16.0"
+    "ws": "^8.17.1"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.4",
