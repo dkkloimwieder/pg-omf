@@ -22,7 +22,7 @@ dependencies:
     version: 4.0.0-beta.2(@dataplan/pg@0.0.1-beta.17)(graphile-build-pg@5.0.0-beta.20)(graphile-config@0.0.1-beta.7)(postgraphile@5.0.0-beta.21)
   '@graphile/pg-aggregates':
     specifier: 0.2.0-beta.5
-    version: 0.2.0-beta.5(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphql@16.8.1)
+    version: 0.2.0-beta.5(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphql@16.8.2)
   '@graphile/simplify-inflection':
     specifier: 8.0.0-beta.4
     version: 8.0.0-beta.4
@@ -31,28 +31,28 @@ dependencies:
     version: 4.19.2
   grafast:
     specifier: 0.1.1-beta.6
-    version: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
+    version: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
   grafserv:
     specifier: 0.1.1-beta.8
-    version: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(ws@8.17.1)
+    version: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(ws@8.17.1)
   graphile:
     specifier: 5.0.0-beta.21
     version: 5.0.0-beta.21(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(postgraphile@5.0.0-beta.21)
   graphile-build:
     specifier: ^5.0.0-beta.1
-    version: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
+    version: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
   graphile-build-pg:
     specifier: 5.0.0-beta.20
-    version: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+    version: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
   graphql:
     specifier: ^16.8.1
-    version: 16.8.1
+    version: 16.8.2
   json^0.0.1-beta.8:
     specifier: link:@dataplan/json^0.0.1-beta.8
     version: link:@dataplan/json^0.0.1-beta.8
   postgraphile:
     specifier: 5.0.0-beta.21
-    version: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+    version: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
   postgraphile-plugin-connection-filter:
     specifier: 3.0.0-beta.2
     version: 3.0.0-beta.2
@@ -93,7 +93,7 @@ packages:
       grafast: ^0.1.1-beta.6
     dependencies:
       chalk: 4.1.2
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
       tslib: 2.6.2
     dev: false
 
@@ -118,7 +118,7 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       eventemitter3: 5.0.1
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
       pg: 8.11.3
       pg-sql2: 5.0.0-beta.5
@@ -151,8 +151,8 @@ packages:
         optional: true
     dependencies:
       '@graphile/lru': 5.0.0-beta.3
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
-      grafserv: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(ws@8.17.1)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
+      grafserv: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(ws@8.17.1)
       graphile-config: 0.0.1-beta.7
       tslib: 2.6.2
     dev: false
@@ -171,9 +171,9 @@ packages:
       postgraphile: ^5.0.0-beta.1
     dependencies:
       '@dataplan/pg': 0.0.1-beta.17(@dataplan/json@0.0.1-beta.15)(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)
-      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
-      postgraphile: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      postgraphile: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
     dev: false
 
   /@graphile/lru@5.0.0-beta.3:
@@ -183,7 +183,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@graphile/pg-aggregates@0.2.0-beta.5(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphql@16.8.1):
+  /@graphile/pg-aggregates@0.2.0-beta.5(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphql@16.8.2):
     resolution: {integrity: sha512-H1ySXDd6HpPQSO49AxmwZwRgQ/7NcQcFlzNiYGJaXIR8Zi0b8ePmOeB2iTIBwco7Gd+rUX20fIDOmsdSn9e69Q==}
     peerDependencies:
       graphile-build: ^5.0.0-beta.1
@@ -197,9 +197,9 @@ packages:
       graphql:
         optional: true
     dependencies:
-      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
-      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
-      graphql: 16.8.1
+      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
+      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      graphql: 16.8.2
     dev: false
 
   /@graphile/simplify-inflection@8.0.0-beta.4:
@@ -678,7 +678,7 @@ packages:
       get-intrinsic: 1.2.4
     dev: false
 
-  /grafast@0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6):
+  /grafast@0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6):
     resolution: {integrity: sha512-LcDy6eke4Z0ct+e8XQhAkJuCk2Or4VyXFp9C144E/P3tjWJfRZ62SqoZb0bGKaBWjUXxo9zhFL3poQSJSyRHFA==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -697,7 +697,7 @@ packages:
       debug: 4.3.4
       eventemitter3: 5.0.1
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
+      graphql: 16.8.2
       iterall: 1.3.0
       tamedevil: 0.0.0-beta.6
       tslib: 2.6.2
@@ -705,7 +705,7 @@ packages:
       - supports-color
     dev: false
 
-  /grafserv@0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(ws@8.17.1):
+  /grafserv@0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(ws@8.17.1):
     resolution: {integrity: sha512-AwYSOjuqn5+6RWlaaAS+HldH7AdOAfgjU7qRB3/+7ldNHOykdYRHAa3uXCVvImphVRyCYCTKDeS4DsQ+SObMeA==}
     engines: {node: '>=16.10'}
     peerDependencies:
@@ -723,18 +723,18 @@ packages:
       '@graphile/lru': 5.0.0-beta.3
       debug: 4.3.4
       eventemitter3: 5.0.1
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
-      graphql-ws: 5.15.0(graphql@16.8.1)
-      ruru: 2.0.0-beta.11(debug@4.3.4)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
+      graphql: 16.8.2
+      graphql-ws: 5.15.0(graphql@16.8.2)
+      ruru: 2.0.0-beta.11(debug@4.3.4)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
       tslib: 2.6.2
       ws: 8.17.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /graphile-build-pg@5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6):
+  /graphile-build-pg@5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6):
     resolution: {integrity: sha512-E/0rnCRO9/cvJcyYCwhxMu8TFgROFsOyLFfnchepMjonIyVYX1u8wMNd+a8Nb16dT/mS/F9xJvUo1sZo8Bqyag==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -753,10 +753,10 @@ packages:
       '@dataplan/pg': 0.0.1-beta.17(@dataplan/json@0.0.1-beta.15)(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)
       '@types/node': 20.11.24
       debug: 4.3.4
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
-      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
+      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
+      graphql: 16.8.2
       jsonwebtoken: 9.0.2
       pg: 8.11.3
       pg-introspection: 0.0.1-beta.7
@@ -767,7 +767,7 @@ packages:
       - supports-color
     dev: false
 
-  /graphile-build@5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1):
+  /graphile-build@5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2):
     resolution: {integrity: sha512-Y1wit6Lp93mijhxZDjml7OAoAaRp7r9Js389NOszD3sSQseuFZFmlKa954z4mPEFPxGjNZCif2eqcSQYGbgmKQ==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -780,9 +780,9 @@ packages:
       '@types/semver': 7.5.8
       chalk: 4.1.2
       debug: 4.3.4
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
+      graphql: 16.8.2
       lodash: 4.17.21
       pluralize: 7.0.0
       semver: 7.6.0
@@ -808,7 +808,7 @@ packages:
       - supports-color
     dev: false
 
-  /graphile-utils@5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6):
+  /graphile-utils@5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6):
     resolution: {integrity: sha512-gOU6L+owISASK6msVPSo9aHCRYCPJLUcn/1phRb+V5is1hPh3uvy/GVycYYsuuksJ93w74tgtjMcjT7hs930eA==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -827,11 +827,11 @@ packages:
     dependencies:
       '@dataplan/pg': 0.0.1-beta.17(@dataplan/json@0.0.1-beta.15)(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)
       debug: 4.3.4
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
-      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
-      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
+      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
+      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
+      graphql: 16.8.2
       json5: 2.2.3
       tamedevil: 0.0.0-beta.6
       tslib: 2.6.2
@@ -855,26 +855,26 @@ packages:
     dependencies:
       '@typescript/vfs': 1.5.0
       chalk: 4.1.2
-      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
+      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
       graphile-config: 0.0.1-beta.7
-      postgraphile: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      postgraphile: 5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
       tslib: 2.6.2
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /graphql-ws@5.15.0(graphql@16.8.1):
+  /graphql-ws@5.15.0(graphql@16.8.2):
     resolution: {integrity: sha512-xWGAtm3fig9TIhSaNsg0FaDZ8Pyn/3re3RFlP4rhQcmjRDIPpk1EhRuNB+YSJtLzttyuToaDiNhwT1OMoGnJnw==}
     engines: {node: '>=10'}
     peerDependencies:
       graphql: '>=0.11 <=16'
     dependencies:
-      graphql: 16.8.1
+      graphql: 16.8.2
     dev: false
 
-  /graphql@16.8.1:
-    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
+  /graphql@16.8.2:
+    resolution: {integrity: sha512-cvVIBILwuoSyD54U4cF/UXDh5yAobhNV/tPygI4lZhgOIJQE/WLWC4waBRb4I6bDVYb3OVx3lfHbaQOEoUD5sg==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
     dev: false
 
@@ -1223,7 +1223,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /postgraphile@5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6):
+  /postgraphile@5.0.0-beta.21(@dataplan/json@0.0.1-beta.15)(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(grafserv@0.1.1-beta.8)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6):
     resolution: {integrity: sha512-UpuUpjHOB2ReQ/ShAwNBNSd43Ksu5Gm3DhrFKVSwdp/HcUlJtLEeURBiF3rb5fwG3L1m2EFytYIlPZSlh60c6Q==}
     engines: {node: '>=16'}
     hasBin: true
@@ -1250,13 +1250,13 @@ packages:
       '@types/node': 20.11.24
       '@types/pg': 8.11.2
       debug: 4.3.4
-      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
-      grafserv: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(ws@8.17.1)
-      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)
-      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
+      grafast: 0.1.1-beta.6(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
+      grafserv: 0.1.1-beta.8(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(ws@8.17.1)
+      graphile-build: 5.0.0-beta.16(grafast@0.1.1-beta.6)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)
+      graphile-build-pg: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(pg-sql2@5.0.0-beta.5)(pg@8.11.3)(tamedevil@0.0.0-beta.6)
       graphile-config: 0.0.1-beta.7
-      graphile-utils: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.1)(tamedevil@0.0.0-beta.6)
-      graphql: 16.8.1
+      graphile-utils: 5.0.0-beta.20(@dataplan/pg@0.0.1-beta.17)(grafast@0.1.1-beta.6)(graphile-build-pg@5.0.0-beta.20)(graphile-build@5.0.0-beta.16)(graphile-config@0.0.1-beta.7)(graphql@16.8.2)(tamedevil@0.0.0-beta.6)
+      graphql: 16.8.2
       iterall: 1.3.0
       jsonwebtoken: 9.0.2
       pg: 8.11.3
@@ -1363,7 +1363,7 @@ packages:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
     dev: false
 
-  /ruru@2.0.0-beta.11(debug@4.3.4)(graphile-config@0.0.1-beta.7)(graphql@16.8.1):
+  /ruru@2.0.0-beta.11(debug@4.3.4)(graphile-config@0.0.1-beta.7)(graphql@16.8.2):
     resolution: {integrity: sha512-bFyTatjNANnb2QVMi+pspRiZ0TLDKFuhKelZwfTXfa9qAuCC1VXNYL3Hk/yFzmKaqmqzOSwG7qkuIuI2MszS1w==}
     engines: {node: '>=16'}
     hasBin: true
@@ -1373,7 +1373,7 @@ packages:
     dependencies:
       '@emotion/is-prop-valid': 1.2.2
       graphile-config: 0.0.1-beta.7
-      graphql: 16.8.1
+      graphql: 16.8.2
       http-proxy: 1.18.1(debug@4.3.4)
       tslib: 2.6.2
       yargs: 17.7.2
